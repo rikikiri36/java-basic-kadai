@@ -5,7 +5,9 @@ public class Price_Chapter08 {
 	public static void main(String[] args) {
 		int userAge = 0;
 		int serviceCost = 0;
-		
+
+		userAge = 30;
+
 		switch(userAge) {
 			case 10 -> serviceCost = 1000;
 			case 20 -> serviceCost = 2000;
@@ -15,7 +17,6 @@ public class Price_Chapter08 {
 			default -> serviceCost = 500;
 		}
 
-		userAge = 30;
 		System.out.println(userAge + "代の料金は" + serviceCost + "円です");
 	}
 
