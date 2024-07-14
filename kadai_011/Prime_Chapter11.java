@@ -3,14 +3,14 @@ package kadai_011;
 public class Prime_Chapter11 {
 
 	public static void main(String[] args) {
-		final int CHECK_NUMBER = 100;
+		final int CHECK_NUMBER = 101;
 		boolean[] primenuberArray = new boolean[CHECK_NUMBER];
 		int targetNumber;
 //		System.out.println(primenuberArray[0]);
 //		System.out.println(primenuberArray[99]);
 		
 //		初期化
-		for(int i = 0; i < primenuberArray.length; i++ ) {
+		for(int i = 0; i < primenuberArray.length-1; i++ ) {
 			primenuberArray[i] = true;
 		}
 		
